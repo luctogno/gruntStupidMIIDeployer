@@ -8,13 +8,13 @@ This plugin requires Grunt `~0.4.5`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install sap_stupidMIIDeployer --save-dev
+npm install sap-stupid-mii-deployer --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('sap_stupidMIIDeployer');
+grunt.loadNpmTasks('sap-stupid-mii-deployer');
 ```
 
 ## The "stupidMIIDeployer" task
@@ -37,12 +37,32 @@ grunt.initConfig({
 #### options.miiHost
 Type: `String`
 
-A string value that is used to do something with whatever.
+A string value of the host of MII.
 
 #### options.miiPort
 Type: `String`
 
-A string value that is used to do something else with whatever else.
+A string value of the port of MII.
+
+#### options.login
+Type: `String`
+
+A string value of the login on MII.
+
+#### options.pass
+Type: `String`
+
+A string value of the pass on MII.
+
+#### options.localPath
+Type: `String`
+
+A string value of the localPath on project to load on MII.
+
+#### options.remotePath
+Type: `String`
+
+A string value of the remotePath on project in MII machine.
 
 ### Usage Examples
 
