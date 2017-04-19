@@ -178,16 +178,9 @@ module.exports = function (grunt) {
         }
 
         // Merge task-specific and/or target-specific options with these defaults.
-        var options = this.options({
-            miiHost: 'localhost',
-            miiPort: '50000',
-            login: 'admin',
-            pass: 'admin',
-            localPath: 'webapp',
-            remotePath: '0100/WEB/CAUSFERM'
-        });
+        var options = this.options({});
 
-        if (!grunt.file.exists(options.localPath) || grunt.file.isDir(options.localPath)) {
+        if (!grunt.file.exists(options.localPath) || !grunt.file.isDir(options.localPath)) {
             grunt.log.warn('Source dir "' + options.localPath + '" not found.');
             return false;
         }
@@ -211,7 +204,7 @@ module.exports = function (grunt) {
 
             // SEND the file.
             grunt.log.debug("SEND FILE WITH PROP : " + [options.miiHost, options.miiPort, options.login, options.pass, path, b64content].join(" ; "));
-            //sendDataToMII(options.miiHost, options.miiPort, options.login, options.pass, path, b64content);
+            sendDataToMII(options.miiHost, options.miiPort, options.login, options.pass, path, b64content);
         }
     });
 
