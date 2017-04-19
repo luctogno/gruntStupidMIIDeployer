@@ -1,23 +1,23 @@
 {
-  "name": "grunt-StupidMIIDeployer",
+  "name": "sap_stupidMIIDeployer",
   "description": "The best Grunt plugin ever.",
   "version": "0.1.0",
-  "homepage": "https://github.com/ltogno/gruntStupidMIIDeployer",
+  "homepage": "https://github.com/luctogno/gruntStupidMIIDeployer",
   "author": {
     "name": "Luca Togno",
     "email": "luctogno@yahoo.it"
   },
   "repository": {
-    "type": "git",
-    "url": "git://github.com/ltogno/gruntStupidMIIDeployer.git"
+    "type": "https",
+    "url": "https://github.com/luctogno/gruntStupidMIIDeployer.git"
   },
   "bugs": {
-    "url": "https://github.com/ltogno/gruntStupidMIIDeployer/issues"
+    "url": "https://github.com/luctogno/gruntStupidMIIDeployer/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/ltogno/gruntStupidMIIDeployer/blob/master/LICENSE-MIT"
+      "url": "https://github.com/luctogno/gruntStupidMIIDeployer/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {

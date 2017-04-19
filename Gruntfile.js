@@ -1,5 +1,5 @@
 /*
- * grunt-StupidMIIDeployer
+ * sap_stupidMIIDeployer
  * https://github.com/ltogno/gruntStupidMIIDeployer
  *
  * Copyright (c) 2017 Luca Togno
@@ -39,9 +39,6 @@ module.exports = function(grunt) {
             localPath: 'test/expected',
             remotePath: '0100/WEB/CAUSFERM'
         },
-        files: {
-          'tmp/custom_options': ['test/fixtures/testing', 'test/fixtures/123']
-        }
       }
     },
 
