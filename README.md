@@ -66,11 +66,11 @@ A string value of the remotePath on project in MII machine.
 
 ### Usage Examples
 
-In this example, custom options are used to do something else with whatever else. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result in this case would be `Testing: 1 2 3 !!!`
+In this example, get all file in localPath and put into path remotePath + localPath
 
 ```js
 grunt.initConfig({
-  StupidMIIDeployer: {
+  stupidMIIDeployer: {
       options: {
             miiHost: 'localhost',
             miiPort: '50000',
