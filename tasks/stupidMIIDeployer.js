@@ -167,7 +167,8 @@ module.exports = function (grunt) {
                 });
             });
 
-            req.write(qs.stringify({Mode: 'SaveBinary',
+            req.write(qs.stringify({
+                Mode: 'SaveBinary',
                 Class: 'Content',
                 ObjectName: path,
                 TemporaryFile: 'false',
