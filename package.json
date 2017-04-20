@@ -1,7 +1,7 @@
 {
   "name": "sap-stupid-mii-deployer",
   "description": "The best Grunt plugin ever.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/luctogno/gruntStupidMIIDeployer",
   "author": {
     "name": "Luca Togno",
